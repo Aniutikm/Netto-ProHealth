@@ -1,0 +1,68 @@
+
+.stepper {
+  counter-reset: step 0;
+  width: 80%;
+  margin-top: 6%;
+  display: flex;
+}
+  .stepper > .step {
+    counter-increment: step;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+    .stepper > .step > .step-label {
+      font-family: 'Barlow', sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 10px;
+      width: 56px;
+      height: 56px;
+      color: var(--font_secondary_green_200);
+      border: 2px solid var(--font_secondary_green_200);
+      text-align: center;
+      border-radius: 50%;
+    }
+
+      .stepper > .step > .step-label::before {
+        content: counter(step);
+      }
+
+    .stepper > .step.completed > .step-label {
+      background: var(--primary_green);
+      color: var(--bs-light);
+      border-color: var(--primary_green);
+    }
+
+    .stepper > .step > .step-description {
+      font-family: 'Barlow', sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--font_secondary_green_200);
+      margin-top: 0.5rem;
+      overflow-wrap: break-word;
+      hyphens: auto;
+      text-align: center;
+    }
+
+    .stepper > .step.completed > .step-description {
+      color: var(--primary_green);
+      font-weight: bold;
+    }
+    .stepper > .step-line {
+      content: "";
+      margin-top: 1.8rem;
+      align-self: start;
+      width: 100%;
+      height: 2px;
+      background-color: var(--font_secondary_green_200);
+      
+    }
+   
+      
+
+
+
+

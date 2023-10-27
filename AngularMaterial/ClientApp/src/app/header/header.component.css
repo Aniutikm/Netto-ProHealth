@@ -1,0 +1,44 @@
+header {
+  width: 100%;
+  z-index: 10;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+ 
+}
+  header a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--font_brown);
+    align-self: center;
+  }
+  .logo {
+      display: flex;
+      align-items:center;
+  }
+
+header mat-icon {
+  width: 44px;
+  height: 44px;
+  }
+.header-right {
+  font-weight: bold;
+  width: 50%;
+  line-height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.green-button {
+  width: 25%;
+  padding: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--font_white) !important;
+  background-color: var(--primary_green);
+  border-radius: 8px;
+}
+  .green-button:hover {
+    background-color: var(--secondary_on-hover);
+  }

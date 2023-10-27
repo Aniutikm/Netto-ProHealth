@@ -1,0 +1,96 @@
+:root {
+  /* Fonts */
+
+  --font_primary_gray_900: #212529;
+  --font_dark_gray: #1D1F22;
+  --font_gray_800: #525252;
+  --font_gray_900: #434343;
+  --font_gray_300: #E0E0E0;
+  --font_gray_400: #BDBDBD;
+  --font_gray_600: #9E9E9E;
+  --font_gray_200: #EEEEEE;
+  --font_gray_150: #F0F0F0;
+  --font_brown: #434343;
+  --font_white: #FFFFFF;
+  --font_green: #149DA5;
+  --font_secondary_green_100: #BBE8EB;
+  --font_secondary_green_200: #91D5D9;
+  --font_system_blue: #4054B2;
+  --font_secondary_blue_50: #EBEFFB;
+  --font_yellow: #FFBB33;
+  --font_red: #F2453D;
+  --font_orange: #FFBB33;
+  /* Background Colors */
+
+  --white: #FFFFFF;
+  /* Primary */
+
+  --primary_green: #149DA5;
+  --light_green: #F2FEFF;
+  --gradient_green: linear-gradient(180deg, #149BA3 -2.59%, #0B575B 102.22%);
+  /* Secondary */
+
+  --secondary_light_green: #EFFEFF;
+  --secondary_green_50: #D0F2F3;
+  --secondary_on-hover: #107E84;
+  /* System */
+  --system_light_red: rgba(242, 69, 61, 0.1);
+}
+body {
+  width: 97%;
+  margin: 0 auto;
+  max-width: 1920px;
+}
+ .green-button {
+  width: 25%;
+  padding: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--font_white) !important;
+  background-color: var(--primary_green);
+  border-radius: 8px;
+}
+
+  .green-button:hover {
+    background-color: var(--secondary_on-hover);
+  }
+.wrapper {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 8%;
+}
+.wrapper-green {
+  padding: 8% 0;
+  background-color: var(--secondary_green_50);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8%;
+}
+
+  .wrapper-green h6 {
+    font-size: 14px;
+    color: var(--primary_green);
+    font-family: 'Barlow', sans-serif;
+  }
+
+  .wrapper-green h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--font_dark_gray);
+    font-family: 'Barlow', sans-serif;
+    line-height: 72px;
+  }
+
+  .wrapper-green p {
+    font-size: 20px;
+    color: var(--font_gray_900);
+    font-family: 'Barlow', sans-serif;
+    line-height: 28px;
+    width: 44%;
+    text-align: center;
+  }
+
+
+
