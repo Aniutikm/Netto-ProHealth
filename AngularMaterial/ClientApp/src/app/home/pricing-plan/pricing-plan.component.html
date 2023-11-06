@@ -1,0 +1,19 @@
+<div class="pricing-plan-header">
+    <div class="pricing-plan-image">
+        <mat-icon [svgIcon]="plan.imageSrc">
+        </mat-icon>
+    </div>
+    <div class="pricing-plan-trial">{{plan.trialInfo}}</div>
+</div>
+<div class="pricing-plan-title">
+    {{plan.title}}
+</div>
+<div class="pricing-plan-description">{{plan.description}}</div>
+<div class="pricing-plan-options">
+    <div *ngFor="let option of options" class="pricing-plan-option"
+         [class.pricing-plan-option-unselected]="isOptionUnSelected(option)">
+        {{option.name}}
+    </div>
+</div>
+<button></button>
+

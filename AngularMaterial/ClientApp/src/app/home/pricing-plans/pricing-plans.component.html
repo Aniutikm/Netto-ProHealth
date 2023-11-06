@@ -1,0 +1,14 @@
+
+<div class="pricing-plans">
+    <div class="pricing-plans-header">
+        <div class="h6 pricing-plans-title">Pricing plan</div>
+        <div class="h2 pricing-plans-subtitle">
+            Employ and empower for one low flat rate
+        </div>
+    </div>
+    <div class="pricing-plans-cards">
+        <app-pricing-plan *ngFor="let plan of plans" [plan]="plan">
+        </app-pricing-plan>
+       
+    </div>
+</div>

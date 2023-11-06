@@ -16,7 +16,7 @@
   --font_secondary_green_100: #BBE8EB;
   --font_secondary_green_200: #91D5D9;
   --font_system_blue: #4054B2;
-  --font_secondary_blue_50: #EBEFFB;
+  --font_primary_blue: #395BDB;
   --font_yellow: #FFBB33;
   --font_red: #F2453D;
   --font_orange: #FFBB33;
@@ -93,5 +93,15 @@ body {
     text-align: center;
   }
 
+.h6 {
+  font-size: 14px;
+  font-family: 'Barlow', sans-serif;
+}
+.h2 {
+  font-size: 48px;
+  font-weight: 900;
+  font-family: 'Barlow', sans-serif;
+  line-height: 72px;
+}
 
 

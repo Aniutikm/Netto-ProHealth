@@ -26,6 +26,38 @@ export class AppComponent {
       "talk",
       this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/talk.svg")
     );
+    this.matIconRegistry.addSvgIcon(
+      "basic",
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/basic.svg")
+    );
+    this.matIconRegistry.addSvgIcon(
+      "advanced",
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/advanced.svg")
+    );
+    this.matIconRegistry.addSvgIcon(
+      "premium",
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/premium.svg")
+    );
+    this.matIconRegistry.addSvgIcon(
+      "youtube",
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/youtube.svg")
+    );
+    this.matIconRegistry.addSvgIcon(
+      "twitter",
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/twitter.svg")
+    );
+    this.matIconRegistry.addSvgIcon(
+      "insta",
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/insta.svg")
+    );
+    this.matIconRegistry.addSvgIcon(
+      "facebook",
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/facebook.svg")
+    );
+    this.matIconRegistry.addSvgIcon(
+      "linkedIn",
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/linkedIn.svg")
+    );
   }
 }
 

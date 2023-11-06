@@ -1,0 +1,14 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  padding: 32px;
+  background: var(--secondary_green_50);
+}
+.pricing-plan-header {
+    display: flex;
+    justify-content: space-between;
+}
+.pricing-plan-option-unselected {
+  color: var(--font_gray_400);
+}

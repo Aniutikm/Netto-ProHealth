@@ -16,6 +16,9 @@ import { FooterComponent } from './footer/footer.component';
 import { MainbannerComponent } from './home/mainbanner/mainbanner.component';
 import { PlatformComponent } from './home/platform/platform.component';
 import { ContactComponent } from './home/contact/contact.component';
+import { PricingPlansComponent } from './home/pricing-plans/pricing-plans.component';
+import { PricingPlanComponent } from './home/pricing-plan/pricing-plan.component';
+
 
 
 @NgModule({
@@ -29,7 +32,10 @@ import { ContactComponent } from './home/contact/contact.component';
     FooterComponent,
     MainbannerComponent,
     PlatformComponent,
-    ContactComponent
+    ContactComponent,
+    PricingPlansComponent,
+    PricingPlanComponent
+ 
   ],
   imports: [
     MaterialModule,

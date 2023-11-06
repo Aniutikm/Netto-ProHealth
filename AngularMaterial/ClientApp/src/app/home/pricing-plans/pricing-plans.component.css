@@ -1,0 +1,31 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 140px;
+}
+
+.pricing-plans {
+  width: 1320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pricing-plans-header {
+  width: 594px;
+ 
+}
+.pricing-plans-title {
+  text-align: center;
+  color: var(--font_primary_blue);
+}
+
+.pricing-plans-subtitle {
+  text-align: center;
+}
+.pricing-plans-cards {
+    margin-top: 85px;
+    display: flex;
+    gap: 24px;
+}
